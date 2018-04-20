@@ -1,0 +1,238 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- 设置启动全屏显示的style -->
+    <style name="AppWelcome" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/loading</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:fitsSystemWindows">true</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="radiobtn">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@drawable/radiobutton_textcolorchange_gray</item>
+        <item name="android:button">@null</item>
+    </style>
+
+    <style name="edittext">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/ui_88</item>
+        <item name="android:textColor">@color/gray3</item>
+        <item name="android:textSize">@dimen/font_30</item>
+        <item name="android:background">@drawable/bottom_line</item>
+    </style>
+
+
+    <style name="relativelayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/navigation_bar_bg</item>
+        <item name="android:paddingTop">@dimen/navigation_bar_edit_margin</item>
+        <item name="android:paddingBottom">@dimen/navigation_bar_edit_margin</item>
+    </style>
+
+    <style name="relativelayout.personal">
+        <item name="android:layout_marginBottom">2px</item>
+    </style>
+
+    <style name="textview">
+        <item name="android:layout_width">@dimen/ui_240</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/gray3</item>
+        <item name="android:textSize">@dimen/font_30</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_marginLeft">@dimen/navigation_bar_edit_margin</item>
+    </style>
+
+
+    <style name="textview1">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:textSize">@dimen/font_28</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_marginLeft">@dimen/ui_60</item>
+        <item name="android:layout_marginRight">@dimen/ui_30</item>
+    </style>
+
+
+    <style name="title_textview">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/gray3</item>
+        <item name="android:textSize">@dimen/font_60</item>
+        <item name="android:paddingLeft">@dimen/navigation_bar_edit_margin</item>
+        <item name="android:paddingTop">@dimen/ui_40</item>
+        <item name="android:background">@color/navigation_bar_bg</item>
+        <item name="android:paddingBottom">@dimen/navigation_bar_edit_margin</item>
+
+    </style>
+
+
+    <style name="textview2">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">0.33</item>
+        <item name="android:layout_height">@dimen/ui_120</item>
+        <item name="android:textColor">@color/gray3</item>
+        <item name="android:textSize">@dimen/font_26</item>
+        <item name="android:background">@color/gray_bg</item>
+        <item name="android:layout_marginLeft">@dimen/ui_30</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="mine_main">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/ui_88</item>
+        <item name="android:layout_marginTop">@dimen/navigation_bar_edit_margin</item>
+        <item name="android:paddingLeft">@dimen/navigation_bar_edit_margin</item>
+        <item name="android:paddingRight">@dimen/navigation_bar_edit_margin</item>
+        <item name="android:background">@color/navigation_bar_bg</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="radiobtn.equipment">
+        <item name="android:drawableRight">@drawable/selector_checkbox</item>
+        <item name="android:drawablePadding">@dimen/ui_margin_20</item>
+        <item name="android:textSize">@dimen/font_30</item>
+
+    </style>
+
+    <style name="textview3">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/gray3</item>
+        <item name="android:textSize">@dimen/font_30</item>
+    </style>
+
+    <style name="textview4">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:textSize">@dimen/font_26</item>
+    </style>
+
+    <style name="data_relative">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/ui_88</item>
+        <item name="android:background">@color/navigation_bar_bg</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="data_relative.entry">
+        <item name="android:layout_marginBottom">2px</item>
+    </style>
+
+    <style name="data_edit">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@null</item>
+        <item name="android:textSize">@dimen/font_26</item>
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:layout_marginLeft">@dimen/ui_400</item>
+        <item name="android:layout_marginRight">@dimen/navigation_bar_edit_margin</item>
+    </style>
+
+
+    <style name="CustomDialog" parent="android:style/Theme.Dialog">
+
+        <!-- 背景颜色及透明程度 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+
+        <!-- 是否有标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 是否模糊 -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <!-- 边框 -->
+        <item name="android:windowFrame">@null</item>
+    </style>
+
+    <style name="AnimBottom" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/push_bottom_in</item>
+        <item name="android:windowExitAnimation">@anim/push_bottom_out</item>
+    </style>
+
+
+    <style name="home_store_radiobutton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">0.33</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textSize">@dimen/font_30</item>
+        <item name="android:background">@drawable/radiobutton_bg1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:button">@null</item>
+    </style>
+
+    <style name="home_store_radiobutton.order">
+        <item name="android:textColor">@drawable/radiobutton_textcolorchange_deep</item>
+    </style>
+
+
+    <style name="entry_relate">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/ui_70</item>
+        <item name="android:paddingLeft">@dimen/navigation_bar_edit_margin</item>
+        <item name="android:paddingRight">@dimen/navigation_bar_edit_margin</item>
+    </style>
+
+
+    <style name="entry_title">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:textSize">@dimen/font_24</item>
+        <item name="android:textColor">@color/gray3</item>
+    </style>
+
+    <style name="edtry_edit">
+        <item name="android:layout_width">@dimen/margin_50</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@null</item>
+        <item name="android:textSize">@dimen/font_24</item>
+        <item name="android:textColor">@color/gray3</item>
+
+    </style>
+
+    <style name="radio_foot_detail">
+        <item name="android:layout_width">@dimen/ui_150</item>
+        <item name="android:layout_height">@dimen/margin_50</item>
+        <item name="android:button">@null</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/font_24</item>
+        <item name="android:background">@drawable/radiobutton_bg_foot_detail</item>
+        <item name="android:textColor">@drawable/radiobutton_foot_textcolorchange</item>
+    </style>
+
+
+    <style name="radio_foot">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">0.2</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:button">@null</item>
+        <item name="android:textSize">@dimen/font_24</item>
+        <item name="android:drawableLeft">@drawable/selector_checkbox</item>
+        <item name="android:drawablePadding">@dimen/navigation_bar_margin</item>
+        <item name="android:textColor">@drawable/radiobutton_textcolorchange_gray</item>
+    </style>
+
+    <style name="modify_personal_radiobutton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:drawableLeft">@drawable/selector_checkbox</item>
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:textSize">@dimen/font_30</item>
+        <item name="android:button">@null</item>
+        <item name="android:drawablePadding">@dimen/ui_5</item>
+    </style>
+</resources>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/gray_bg"
+    android:layout_marginBottom="@dimen/ui_60"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/ui_30"
+        android:background="@color/navigation_bar_bg">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="内外翻评估"
+            android:textColor="@color/gray3"
+            android:textSize="@dimen/font_30" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/navigation_bar_bg"
+        android:padding="@dimen/ui_30"
+        android:layout_marginTop="1px">
+
+        <TextView
+            android:id="@+id/text_left_neiwai_fan"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/ui_50"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/text1"
+            android:paddingRight="@dimen/ui_margin_20"
+            android:paddingLeft="@dimen/ui_margin_20"
+            android:background="@color/font_orange"
+            android:gravity="center"
+            android:text="左脚:轻度内翻"
+            android:textColor="@color/navigation_bar_bg"
+            android:textSize="@dimen/font_30" />
+
+        <TextView
+            android:id="@+id/text_right_neiwai_fan"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/ui_50"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/ui_margin_20"
+            android:layout_toRightOf="@+id/text_left_neiwai_fan"
+            android:paddingRight="@dimen/ui_margin_20"
+            android:paddingLeft="@dimen/ui_margin_20"
+            android:background="@color/font_orange"
+            android:gravity="center"
+            android:text="右脚:轻度内翻"
+            android:textColor="@color/navigation_bar_bg"
+            android:textSize="@dimen/font_30" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/navigation_bar_bg"
+        android:paddingTop="@dimen/ui_40"
+        android:paddingBottom="@dimen/ui_40"
+        android:layout_marginTop="1px">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/ui_450"
+            android:src="@drawable/foot_inout" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:background="@color/navigation_bar_bg"
+        android:layout_marginTop="@dimen/ui_30"
+        android:padding="@dimen/ui_30">
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="足弓评估:"
+            android:textColor="@color/gray3"
+            android:textSize="@dimen/font_30" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/navigation_bar_bg"
+        android:padding="@dimen/ui_30"
+        android:layout_marginTop="1px">
+
+        <TextView
+            android:id="@+id/text_left_zugong_evaluate"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/ui_50"
+            android:layout_centerVertical="true"
+            android:paddingRight="@dimen/ui_margin_20"
+            android:paddingLeft="@dimen/ui_margin_20"
+            android:background="@color/font_orange"
+            android:gravity="center"
+            android:text="左脚:高足弓"
+            android:textColor="@color/navigation_bar_bg"
+            android:textSize="@dimen/font_30" />
+
+        <TextView
+            android:id="@+id/text_right_zugong_evaluate"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/ui_50"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/ui_margin_20"
+            android:layout_toRightOf="@+id/text_left_zugong_evaluate"
+            android:paddingRight="@dimen/ui_margin_20"
+            android:paddingLeft="@dimen/ui_margin_20"
+            android:background="@color/font_orange"
+            android:gravity="center"
+            android:text="右脚:高足弓"
+            android:textColor="@color/navigation_bar_bg"
+            android:textSize="@dimen/font_30" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/navigation_bar_bg"
+        android:paddingTop="@dimen/ui_40"
+        android:paddingBottom="@dimen/ui_40"
+        android:layout_marginTop="1px">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/ui_450"
+            android:src="@drawable/foot_instep" />
+    </RelativeLayout>
+</LinearLayout>

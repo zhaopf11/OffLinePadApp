@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/text_group_achievement"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/ui_88"
+    android:background="@color/navigation_bar_bg"
+    android:paddingLeft="@dimen/navigation_bar_edit_margin"
+    android:gravity="center_vertical"
+    android:textSize="@dimen/font_30"
+    android:textColor="@color/gray3"
+    android:text="2017年4月">
+
+</TextView>

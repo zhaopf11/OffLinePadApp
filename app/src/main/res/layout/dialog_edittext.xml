@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="@dimen/ui_100"
+        android:layout_marginRight="@dimen/ui_100"
+        android:background="@drawable/white_corner_bg"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/margin_60">
+
+        <TextView
+            android:id="@+id/text_infomind"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/navigation_bar_edit_margin"
+            android:paddingRight="@dimen/navigation_bar_edit_margin"
+            android:text="输入Wi-Fi密码"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/font_30" />
+
+
+        <EditText
+            android:id="@+id/edit_wifipass"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_60"
+            android:layout_marginLeft="@dimen/navigation_bar_edit_margin"
+            android:layout_marginRight="@dimen/navigation_bar_edit_margin"
+            android:background="@drawable/bottom_line"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/text_dismiss"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/ui_88"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:text="取消"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/font_30" />
+
+            <TextView
+                android:id="@+id/text_sure"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/ui_88"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:text="确定"
+                android:textColor="@color/font_orange"
+                android:textSize="@dimen/font_30" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

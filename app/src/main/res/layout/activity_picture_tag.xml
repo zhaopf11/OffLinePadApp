@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/title_font_black"
+    android:clipToPadding="false"
+    android:fitsSystemWindows="true"
+    android:descendantFocusability="blocksDescendants" >
+
+    <include layout="@layout/title_picture_tag" />
+
+    <LinearLayout
+        android:id="@+id/lin_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/rel_layout1"
+        android:layout_below="@+id/rel_layout"
+        android:orientation="vertical">
+
+        <com.kaihuang.bintutu.utilviews.PictureTagLayout
+            android:id="@+id/picture_tag_view"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/ui_860"
+            android:background="@drawable/leftfoot_top" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerView_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/ui_margin_20"
+            android:layout_marginBottom="@dimen/ui_margin_20">
+
+        </android.support.v7.widget.RecyclerView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/rel_layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/ui_margin_20"
+        android:layout_marginTop="@dimen/ui_margin_20"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"/>
+
+        <LinearLayout
+            android:id="@+id/lin_pre_step"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:layout_marginRight="@dimen/ui_100"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/pre_step" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/ui_5"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="上一步"
+                android:textSize="@dimen/font_28"
+                android:textColor="@color/navigation_bar_bg"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lin_clear_tag"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/clear_tag"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/ui_5"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="清除"
+                android:textSize="@dimen/font_28"
+                android:textColor="@color/navigation_bar_bg"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+</RelativeLayout>

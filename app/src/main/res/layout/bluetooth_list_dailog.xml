@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/navigation_bar_bg"
+        android:layout_marginLeft="@dimen/ui_30"
+        android:layout_marginRight="@dimen/ui_30"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/ui_30"
+            android:text="选择要连接的蓝牙设备"
+            android:textColor="@color/gray3"
+            android:textSize="@dimen/font_30" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:layout_marginLeft="@dimen/ui_30"
+            android:layout_marginRight="@dimen/ui_30"
+            android:background="@color/gray_bg" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_bluetooth"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/ui_380">
+
+        </android.support.v7.widget.RecyclerView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/text_cancle"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/ui_88"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:text="取消"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/font_30" />
+
+            <TextView
+                android:id="@+id/text_sure"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/ui_88"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:text="确定"
+                android:textColor="@color/font_orange"
+                android:textSize="@dimen/font_30" />
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

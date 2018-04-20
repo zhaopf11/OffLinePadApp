@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_bg">
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/title_common" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/lin_bottom"
+        android:layout_below="@+id/include"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            style="@style/relativelayout"
+            android:paddingBottom="@dimen/navigation_bar_edit_margin"
+            android:paddingLeft="@dimen/navigation_bar_edit_margin"
+            android:paddingRight="@dimen/navigation_bar_edit_margin"
+            android:paddingTop="@dimen/ui_40">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="设备详情"
+                android:textColor="@color/gray3"
+                android:textSize="@dimen/font_60" />
+
+        </RelativeLayout>
+
+        <LinearLayout style="@style/relativelayout.personal">
+
+            <TextView
+                style="@style/textview"
+                android:text="设备号" />
+
+
+            <TextView
+                android:id="@+id/text_equipmentnum"
+                style="@style/textview1"
+                android:text="001" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/relativelayout.personal">
+
+            <TextView
+                style="@style/textview"
+                android:text="状态" />
+
+
+            <TextView
+                android:id="@+id/text_uploadstate"
+                style="@style/textview1"
+                android:text="正常" />
+
+        </LinearLayout>
+
+        <!--<RelativeLayout style="@style/relativelayout.personal">-->
+
+            <!--<TextView-->
+                <!--style="@style/textview"-->
+                <!--android:text="配置" />-->
+
+
+            <!--<TextView-->
+                <!--android:id="@+id/text_set"-->
+                <!--style="@style/textview1"-->
+                <!--android:text="&#45;&#45;&#45;&#45;&#45;&#45;" />-->
+
+        <!--</RelativeLayout>-->
+
+        <!--<RelativeLayout style="@style/relativelayout.personal">-->
+
+            <!--<TextView-->
+                <!--style="@style/textview"-->
+                <!--android:text="运行时长" />-->
+
+
+            <!--<TextView-->
+                <!--android:id="@+id/text_data"-->
+                <!--style="@style/textview1"-->
+                <!--android:text="已开机20分35秒" />-->
+
+        <!--</RelativeLayout>-->
+
+
+        <!--<RelativeLayout style="@style/relativelayout.personal">-->
+
+            <!--<TextView-->
+                <!--style="@style/textview"-->
+                <!--android:text="电量" />-->
+
+
+            <!--<TextView-->
+                <!--android:id="@+id/text_power"-->
+                <!--style="@style/textview1"-->
+                <!--android:text="79" />-->
+
+        <!--</RelativeLayout>-->
+
+        <!--<RelativeLayout style="@style/relativelayout.personal">-->
+
+            <!--<TextView-->
+                <!--style="@style/textview"-->
+                <!--android:text="外部链接" />-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/text_outconect"-->
+                <!--style="@style/textview1"-->
+                <!--android:text="已链接(Wi-Fi链接)" />-->
+
+        <!--</RelativeLayout>-->
+
+        <!--<RelativeLayout style="@style/relativelayout.personal">-->
+
+            <!--<TextView-->
+                <!--style="@style/textview"-->
+                <!--android:text="使用人员" />-->
+
+
+            <!--<TextView-->
+                <!--android:id="@+id/text_operator"-->
+                <!--style="@style/textview1"-->
+                <!--android:text="王小明" />-->
+
+        <!--</RelativeLayout>-->
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/lin_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/ui_88"
+            android:background="@color/orange"
+            android:gravity="center"
+            android:text="确定"
+            android:textColor="@color/navigation_bar_bg"
+            android:textSize="@dimen/font_28"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

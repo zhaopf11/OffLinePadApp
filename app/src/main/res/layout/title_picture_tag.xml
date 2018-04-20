@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rel_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/title_font_black"
+    android:gravity="center_vertical">
+
+    <ImageView
+        android:id="@+id/text_cancle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:padding="@dimen/ui_30"
+        android:src="@drawable/white_back"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/text_cancle"
+        android:layout_toLeftOf="@+id/text_save">
+
+        <TextView
+            android:id="@+id/text_pre_step"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/font_30"
+            android:textColor="@color/navigation_bar_bg"
+            android:text="上一步"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/ui_100"
+            android:padding="@dimen/ui_30"
+            />
+
+        <TextView
+            android:id="@+id/text_clear_tag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/font_30"
+            android:textColor="@color/navigation_bar_bg"
+            android:text="清除"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:padding="@dimen/ui_30"
+            android:layout_marginRight="@dimen/ui_100"
+            />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/text_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:textSize="@dimen/font_30"
+        android:textColor="@color/color_d2ba91"
+        android:text="保存"
+        android:layout_centerVertical="true"
+        android:padding="@dimen/ui_30"
+        />
+</RelativeLayout>

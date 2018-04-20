@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "E:\\myWork\\OffLinePadApp\\xiaonengChatUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\my_alpha_action_in.xml",
+        "source": "E:\\myWork\\OffLinePadApp\\xiaonengChatUI\\build\\intermediates\\bundles\\debug\\res\\anim\\my_alpha_action_in.xml"
+    },
+    {
+        "merged": "E:\\myWork\\OffLinePadApp\\xiaonengChatUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\scale_in.xml",
+        "source": "E:\\myWork\\OffLinePadApp\\xiaonengChatUI\\build\\intermediates\\bundles\\debug\\res\\anim\\scale_in.xml"
+    },
+    {
+        "merged": "E:\\myWork\\OffLinePadApp\\xiaonengChatUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\blacklist_anim.xml",
+        "source": "E:\\myWork\\OffLinePadApp\\xiaonengChatUI\\build\\intermediates\\bundles\\debug\\res\\anim\\blacklist_anim.xml"
+    },
+    {
+        "merged": "E:\\myWork\\OffLinePadApp\\xiaonengChatUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\my_alpha_action_out.xml",
+        "source": "E:\\myWork\\OffLinePadApp\\xiaonengChatUI\\build\\intermediates\\bundles\\debug\\res\\anim\\my_alpha_action_out.xml"
+    },
+    {
+        "merged": "E:\\myWork\\OffLinePadApp\\xiaonengChatUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\scale_out.xml",
+        "source": "E:\\myWork\\OffLinePadApp\\xiaonengChatUI\\build\\intermediates\\bundles\\debug\\res\\anim\\scale_out.xml"
+    },
+    {
+        "merged": "E:\\myWork\\OffLinePadApp\\xiaonengChatUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\sdk_loading_animation.xml",
+        "source": "E:\\myWork\\OffLinePadApp\\xiaonengChatUI\\build\\intermediates\\bundles\\debug\\res\\anim\\sdk_loading_animation.xml"
+    },
+    {
+        "merged": "E:\\myWork\\OffLinePadApp\\xiaonengChatUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\progress_smallround.xml",
+        "source": "E:\\myWork\\OffLinePadApp\\xiaonengChatUI\\build\\intermediates\\bundles\\debug\\res\\anim\\progress_smallround.xml"
+    }
+]

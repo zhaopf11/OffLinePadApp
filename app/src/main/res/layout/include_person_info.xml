@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rel_edit_phone"
+        style="@style/data_relative.entry"
+        android:layout_marginTop="2px">
+
+        <TextView
+            style="@style/textview"
+            android:layout_centerVertical="true"
+            android:text="手机号码" />
+
+        <TextView
+            android:id="@+id/edit_phone"
+            android:gravity="center_vertical|end"
+            style="@style/data_edit" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rel_edit_scanid"
+        style="@style/data_relative.entry">
+
+        <TextView
+            style="@style/textview"
+            android:layout_centerVertical="true"
+            android:text="编号" />
+
+        <TextView
+            android:id="@+id/edit_scanid"
+            android:gravity="center_vertical|end"
+            style="@style/data_edit" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rel_relatephone"
+        style="@style/data_relative.entry"
+        android:visibility="gone">
+
+        <TextView
+            style="@style/textview"
+            android:layout_centerVertical="true"
+            android:text="关联手机号" />
+
+        <TextView
+            android:id="@+id/edit_relatephone"
+            android:gravity="center_vertical|end"
+            style="@style/data_edit" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        style="@style/data_relative.entry">
+
+        <TextView
+            style="@style/textview"
+            android:layout_centerVertical="true"
+            android:text="姓名" />
+
+        <EditText
+            android:id="@+id/edit_username"
+            android:gravity="center_vertical|end"
+            android:hint="请输入姓名"
+            style="@style/data_edit" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        style="@style/data_relative.entry">
+
+        <TextView
+            style="@style/textview"
+            android:layout_centerVertical="true"
+            android:text="性别" />
+
+        <RadioGroup
+            android:id="@+id/radiogroup_sex"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center_vertical|end"
+            android:layout_marginRight="@dimen/ui_30"
+            android:layout_marginLeft="@dimen/ui_400">
+
+            <RadioButton
+                android:id="@+id/radiobtn_man"
+                style="@style/modify_personal_radiobutton"
+                android:text="男"
+                android:textSize="@dimen/font_24"
+                android:checked="true"
+                android:layout_marginRight="@dimen/margin_60"
+                />
+            <RadioButton
+                android:id="@+id/radiobtn_woman"
+                style="@style/modify_personal_radiobutton"
+                android:text="女"
+                android:textSize="@dimen/font_24"
+                />
+        </RadioGroup>
+
+    </RelativeLayout>
+
+    <RelativeLayout style="@style/data_relative.entry">
+
+        <TextView
+            style="@style/textview"
+            android:layout_centerVertical="true"
+            android:text="体重" />
+
+        <EditText
+            android:id="@+id/edit_weight"
+            android:gravity="center_vertical|end"
+            android:hint="请输入体重"
+            android:inputType="number"
+            style="@style/data_edit" />
+
+    </RelativeLayout>
+
+    <RelativeLayout style="@style/data_relative.entry">
+
+        <TextView
+            style="@style/textview"
+            android:layout_centerVertical="true"
+            android:text="身高" />
+
+        <EditText
+            android:id="@+id/edit_height"
+            android:gravity="center_vertical|end"
+            android:hint="请输入身高"
+            android:inputType="number"
+            style="@style/data_edit" />
+    </RelativeLayout>
+
+    <RelativeLayout style="@style/data_relative.entry">
+
+        <TextView
+            style="@style/textview"
+            android:layout_centerVertical="true"
+            android:text="日常鞋码" />
+
+        <EditText
+            android:id="@+id/edit_shoesize"
+            android:gravity="center_vertical|end"
+            android:hint="请输入日常鞋码"
+            android:inputType="number|numberDecimal"
+            style="@style/data_edit" />
+    </RelativeLayout>
+</LinearLayout>

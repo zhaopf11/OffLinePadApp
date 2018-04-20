@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_bg"
+    android:orientation="vertical">
+
+    <include layout="@layout/title_common" />
+
+
+    <RelativeLayout
+        style="@style/relativelayout"
+        android:paddingLeft="@dimen/navigation_bar_edit_margin"
+        android:paddingRight="@dimen/navigation_bar_edit_margin"
+        android:paddingTop="@dimen/ui_40"
+        android:paddingBottom="@dimen/navigation_bar_edit_margin">
+
+        <TextView
+            android:id="@+id/text_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="本月业绩"
+            android:textColor="@color/gray3"
+            android:textSize="@dimen/font_60" />
+
+
+        <TextView
+            android:id="@+id/text_account"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:text="共0单"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/font_30"
+            />
+    </RelativeLayout>
+
+    <ExpandableListView
+        android:id="@+id/expand_achievement"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        android:groupIndicator="@null"
+        >
+
+    </ExpandableListView>
+
+
+
+</LinearLayout>  

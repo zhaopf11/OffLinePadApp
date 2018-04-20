@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/navigation_bar_bg"
+    android:orientation="vertical"
+    android:padding="@dimen/navigation_bar_edit_margin">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/text_footnum"
+            style="@style/textview3"
+            android:text="201707180001" />
+
+
+        <TextView
+            android:layout_width="@dimen/ui_70"
+            android:layout_height="@dimen/navigation_bar_edit_margin"
+            android:layout_marginLeft="@dimen/navigation_bar_edit_margin"
+            android:background="@color/font_orange"
+            android:gravity="center"
+            android:text="数据"
+            android:textColor="@color/navigation_bar_bg"
+            android:textSize="@dimen/font_20" />
+
+        <TextView
+            android:layout_width="@dimen/ui_70"
+            android:layout_height="@dimen/navigation_bar_edit_margin"
+            android:layout_marginLeft="@dimen/ui_margin_20"
+            android:background="@color/font_orange"
+            android:gravity="center"
+            android:text="图片"
+            android:textColor="@color/navigation_bar_bg"
+            android:textSize="@dimen/font_20" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/text_username"
+        style="@style/textview4"
+        android:layout_marginTop="@dimen/navigation_bar_edit_margin"
+        android:text="王小明的原始足型数据"
+        android:visibility="gone"/>
+
+
+</LinearLayout>

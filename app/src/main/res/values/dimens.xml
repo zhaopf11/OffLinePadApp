@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--font_size-->
+    <dimen name="title_size">10.8sp</dimen>
+    <dimen name="font_10">6sp</dimen>
+    <dimen name="font_15">9sp</dimen>
+    <dimen name="font_18">10.8sp</dimen>
+    <dimen name="font_20">12sp</dimen>
+    <dimen name="font_24">14.4sp</dimen>
+    <dimen name="font_26">15.6sp</dimen>
+    <dimen name="font_28">16.8sp</dimen>
+    <dimen name="font_30">18sp</dimen>
+    <dimen name="font_32">19.2sp</dimen>
+    <dimen name="font_34">20.4sp</dimen>
+    <dimen name="font_36">21.6sp</dimen>
+    <dimen name="font_48">28.8sp</dimen>
+    <dimen name="font_60">36sp</dimen>
+    <dimen name="font_72">43.2sp</dimen>
+
+    <dimen name="activity_horizontal_margin">9.8dp</dimen>
+    <dimen name="activity_vertical_margin">16.8dp</dimen>
+    <!-- 线条的宽度 -->
+    <dimen name="text_h2">3.4dp</dimen>
+    <dimen name="rule_text">25.2dp</dimen>
+    <dimen name="text2">1.4dp</dimen>
+
+    <!--UI_distence-->
+    <dimen name="gap">9.6dp</dimen>
+    <dimen name="textGap">14dp</dimen>
+    <dimen name="startY">67.2dp</dimen>
+    <dimen name="smallHeight">50.4dp</dimen>
+    <dimen name="largeHeight">58.8dp</dimen>
+
+    <dimen name="navigation_bar_height">32.2dp</dimen>
+    <dimen name="navigation_bar_margin">7dp</dimen>
+    <!---->
+    <dimen name="navigation_bar_edit_margin">21dp</dimen>
+    <dimen name="navigation_bar_edit_hight">42dp</dimen>
+    <!---->
+    <dimen name="ui_margin_20">14dp</dimen>
+    <dimen name="banner_height">252dp</dimen>
+    <dimen name="first_banner_height">350dp</dimen>
+    <dimen name="btn_height_185">130.2dp</dimen>
+    <dimen name="store_recommand_height">175dp</dimen>
+    <dimen name="store_hot_width">221.2dp</dimen>
+    <dimen name="margin_30">21dp</dimen>
+    <dimen name="margin_50">35dp</dimen>
+    <dimen name="margin_60">42dp</dimen>
+    <dimen name="margin_280">196dp</dimen>
+    <dimen name="ui_height_28">19.6dp</dimen>
+    <!---->
+    <dimen name="ui_30">21dp</dimen>
+    <dimen name="ui_width_3">2.8dp</dimen>
+    <dimen name="margin_85">60.2dp</dimen>
+    <dimen name="margin_330">231dp</dimen>
+    <dimen name="ui_170">119dp</dimen>
+    <dimen name="ui_176">123.2dp</dimen>
+    <!---->
+    <dimen name="ui_120">84dp</dimen>
+    <dimen name="ui_200">140dp</dimen>
+    <dimen name="ui_60">42dp</dimen>
+    <dimen name="ui_65">46.9dp</dimen>
+    <dimen name="ui_70">49dp</dimen>
+    <dimen name="ui_40">28dp</dimen>
+    <!---->
+    <dimen name="ui_50">35dp</dimen>
+    <dimen name="ui_150">105dp</dimen>
+    <dimen name="ui_160">112dp</dimen>
+    <dimen name="ui_140">137.2dp</dimen>
+    <!---->
+    <dimen name="ui_88">61.6dp</dimen>
+    <dimen name="ui_5">9dp</dimen>
+    <dimen name="ui_370">259dp</dimen>
+    <dimen name="ui_100">90dp</dimen>
+    <dimen name="ui_260">182dp</dimen>
+    <dimen name="ui_230">161dp</dimen>
+    <dimen name="ui_340">238dp</dimen>
+    <dimen name="ui_14">9.8dp</dimen>
+    <dimen name="ui_16">11.2dp</dimen>
+    <dimen name="ui_18">10.8dp</dimen>
+    <dimen name="ui_72">50.4dp</dimen>
+    <dimen name="ui_130">91dp</dimen>
+    <dimen name="ui_220">154dp</dimen>
+    <dimen name="ui_240">168dp</dimen>
+    <dimen name="ui_180">126dp</dimen>
+    <dimen name="ui_80">56dp</dimen>
+    <dimen name="ui_90">63dp</dimen>
+    <dimen name="ui_92">64.4dp</dimen>
+    <dimen name="ui_94">65.8dp</dimen>
+    <dimen name="ui_96">67.2dp</dimen>
+    <dimen name="ui_210">147dp</dimen>
+    <dimen name="ui_400">280dp</dimen>
+    <dimen name="ui_11">7.8dp</dimen>
+    <dimen name="ui_64">51.8dp</dimen>
+    <dimen name="ui_250">175dp</dimen>
+    <dimen name="ui_300">210dp</dimen>
+    <dimen name="ui_188">131.6dp</dimen>
+    <dimen name="ui_110">77dp</dimen>
+    <dimen name="ui_35">22.4dp</dimen>
+    <dimen name="ui_310">217dp</dimen>
+    <dimen name="ui_320">224dp</dimen>
+    <dimen name="ui_330">231dp</dimen>
+    <dimen name="ui_360">252dp</dimen>
+    <dimen name="ui_380">266dp</dimen>
+    <dimen name="ui_355">249.2dp</dimen>
+    <dimen name="ui_290">203dp</dimen>
+    <dimen name="ui_460">322dp</dimen>
+    <dimen name="ui_480">336dp</dimen>
+    <dimen name="ui_148">103.6dp</dimen>
+    <dimen name="ui_144">100.8dp</dimen>
+    <dimen name="ui_108">75.6dp</dimen>
+    <dimen name="ui_44">30.8dp</dimen>
+    <dimen name="ui_115">81.2dp</dimen>
+    <dimen name="ui_126">88.2dp</dimen>
+    <dimen name="ui_600">420dp</dimen>
+    <dimen name="ui_142">99.4dp</dimen>
+    <dimen name="ui_225">157.5dp</dimen>
+    <dimen name="ui_640">448dp</dimen>
+    <dimen name="ui_420">294dp</dimen>
+    <dimen name="ui_450">315dp</dimen>
+    <dimen name="ui_500">350dp</dimen>
+    <dimen name="ui_190">133dp</dimen>
+    <dimen name="ui_560">392dp</dimen>
+    <dimen name="ui_700">490dp</dimen>
+    <dimen name="ui_860">602dp</dimen>
+    <dimen name="ui_890">618dp</dimen>
+    <dimen name="ui_32">22.4dp</dimen>
+    <dimen name="ui_34">23.8dp</dimen>
+    <dimen name="ui_36">25.2dp</dimen>
+    <dimen name="ui_38">26.6dp</dimen>
+
+
+</resources>

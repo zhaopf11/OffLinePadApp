@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/navigation_bar_bg"
+    android:orientation="vertical">
+
+    <RadioGroup
+        android:id="@+id/radiogroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/navigation_bar_edit_margin"
+        android:paddingRight="@dimen/navigation_bar_edit_margin">
+
+
+        <RadioButton
+            android:id="@+id/radiobtn_passlogin"
+            style="@style/radiobtn"
+            android:layout_marginRight="@dimen/margin_50"
+            android:paddingRight="@dimen/margin_50"
+            android:layout_marginTop="@dimen/ui_80"
+            android:paddingTop="@dimen/navigation_bar_edit_margin"
+            android:checked="true"
+            android:text="密码登录"
+            android:textColor="@drawable/radiobutton_textcolorchange_gray"
+            android:textSize="@dimen/font_60" />
+
+        <RadioButton
+            android:id="@+id/radiobtn_quick"
+            style="@style/radiobtn"
+            android:layout_marginTop="@dimen/ui_80"
+            android:paddingLeft="@dimen/navigation_bar_margin"
+            android:paddingRight="@dimen/margin_50"
+            android:paddingTop="@dimen/navigation_bar_edit_margin"
+            android:text="快速登录"
+            android:textColor="@drawable/radiobutton_textcolorchange_gray" />
+
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/edit_account"
+        style="@style/edittext"
+        android:layout_marginTop="@dimen/ui_80"
+        android:hint="输入手机号码"
+        android:inputType="number"
+        android:paddingLeft="@dimen/navigation_bar_edit_margin"
+        android:paddingRight="@dimen/navigation_bar_edit_margin"
+        android:text=""/>
+
+    <RelativeLayout
+        style="@style/edittext"
+        android:paddingLeft="@dimen/navigation_bar_edit_margin"
+        android:paddingRight="@dimen/navigation_bar_edit_margin"
+        >
+        <TextView
+            android:id="@+id/text_sendcode"
+            android:layout_width="@dimen/ui_200"
+            android:layout_height="@dimen/margin_60"
+            android:background="@drawable/orange_corner_bg"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/font_orange"
+            android:textSize="@dimen/font_26"
+            android:text="@string/send_code"
+            android:gravity="center"
+            android:visibility="gone"/>
+
+        <EditText
+            android:id="@+id/edit_code"
+            style="@style/edittext"
+            android:hint="输入密码"
+            android:lines="1"
+            android:inputType="textPassword"
+            android:layout_toLeftOf="@+id/text_sendcode"
+            android:text=""/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom">
+
+
+        <Button
+            android:id="@+id/btn_next"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/ui_88"
+            android:background="@drawable/modify_button_bg"
+            android:text="登录"
+            android:textColor="@drawable/button_textcolorchange"
+            android:textSize="@dimen/font_30" />
+
+    </LinearLayout>
+
+
+</LinearLayout>  

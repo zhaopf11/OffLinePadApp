@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "E:\\myWork\\OffLinePadApp\\xiaonengChatUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\raw\\xnsdkconfig.xml",
+        "source": "E:\\myWork\\OffLinePadApp\\xiaonengChatUI\\build\\intermediates\\bundles\\debug\\res\\raw\\xnsdkconfig.xml"
+    },
+    {
+        "merged": "E:\\myWork\\OffLinePadApp\\xiaonengChatUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\raw\\xnemoji",
+        "source": "E:\\myWork\\OffLinePadApp\\xiaonengChatUI\\build\\intermediates\\bundles\\debug\\res\\raw\\xnemoji"
+    },
+    {
+        "merged": "E:\\myWork\\OffLinePadApp\\xiaonengChatUI\\build\\intermediates\\res\\merged\\androidTest\\debug\\raw\\emoji",
+        "source": "E:\\myWork\\OffLinePadApp\\xiaonengChatUI\\build\\intermediates\\bundles\\debug\\res\\raw\\emoji"
+    }
+]

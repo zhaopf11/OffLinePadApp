@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_bg"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/navigation_bar_bg">
+
+        <ImageView
+            android:id="@+id/imgbtn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/back"
+            android:padding="@dimen/ui_30" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/navigation_bar_bg"
+        android:paddingLeft="@dimen/navigation_bar_edit_margin"
+        android:paddingTop="@dimen/navigation_bar_edit_margin">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/font_60"
+            android:textColor="@color/gray3"
+            android:layout_centerVertical="true"
+            android:text="Wi-Fi"/>
+
+        <CheckBox
+            android:id="@+id/checkbox_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:button="@null"
+            android:padding="@dimen/ui_30"
+            android:checked="true"
+            android:drawableLeft="@drawable/selector_swithcbtn"
+            android:layout_centerVertical="true"
+            android:visibility="gone"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/navigation_bar_bg"
+        android:paddingTop="@dimen/ui_margin_20"
+        android:paddingBottom="@dimen/navigation_bar_edit_margin"
+        android:paddingLeft="@dimen/navigation_bar_edit_margin"
+        android:textSize="@dimen/font_26"
+        android:textColor="@color/gray"
+        android:text="选择设备"/>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_wifi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>  

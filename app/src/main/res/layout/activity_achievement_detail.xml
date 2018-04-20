@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_bg"
+    android:orientation="vertical">
+
+    <include layout="@layout/title_common" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                style="@style/relativelayout"
+                android:paddingBottom="@dimen/navigation_bar_edit_margin"
+                android:paddingLeft="@dimen/navigation_bar_edit_margin"
+                android:paddingRight="@dimen/navigation_bar_edit_margin"
+                android:paddingTop="@dimen/ui_40">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="业绩详情"
+                    android:textColor="@color/gray3"
+                    android:textSize="@dimen/font_60" />
+
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/relativelayout.personal">
+
+                <TextView
+                    style="@style/textview"
+                    android:text="客户" />
+
+
+                <TextView
+                    android:id="@+id/text_username"
+                    style="@style/textview1"
+                    android:layout_alignParentRight="true"
+                    android:text="" />
+
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/relativelayout.personal">
+
+                <TextView
+                    style="@style/textview"
+                    android:text="足型数据编码" />
+
+
+                <TextView
+                    android:id="@+id/text_footnum"
+                    style="@style/textview1"
+                    android:layout_alignParentRight="true"
+                    android:text="" />
+
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/relativelayout.personal">
+
+                <TextView
+                    style="@style/textview"
+                    android:text="地址" />
+
+
+                <TextView
+                    android:id="@+id/text_address"
+                    style="@style/textview1"
+                    android:layout_alignParentRight="true"
+                    android:text="" />
+
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/relativelayout.personal">
+
+                <TextView
+                    style="@style/textview"
+                    android:text="时间" />
+
+
+                <TextView
+                    android:id="@+id/text_data"
+                    style="@style/textview1"
+                    android:layout_alignParentRight="true"
+                    android:text="" />
+
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/relativelayout.personal">
+
+                <TextView
+                    style="@style/textview"
+                    android:text="扫描方式" />
+
+
+                <TextView
+                    android:id="@+id/text_scantype"
+                    style="@style/textview1"
+                    android:layout_alignParentRight="true"
+                    android:text="" />
+
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/relativelayout.personal">
+
+                <TextView
+                    style="@style/textview"
+                    android:text="设备号" />
+
+
+                <TextView
+                    android:id="@+id/text_equipmentnum"
+                    style="@style/textview1"
+                    android:layout_alignParentRight="true"
+                    android:text="" />
+
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/relativelayout.personal">
+
+                <TextView
+                    style="@style/textview"
+                    android:text="上传状态" />
+
+
+                <TextView
+                    android:id="@+id/text_uploadstate"
+                    style="@style/textview1"
+                    android:layout_alignParentRight="true"
+                    android:text="上传成功" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                style="@style/relativelayout.personal"
+                android:layout_marginTop="@dimen/navigation_bar_edit_margin">
+
+                <TextView
+                    style="@style/textview"
+                    android:text="操作员" />
+
+
+                <TextView
+                    android:id="@+id/text_operator"
+                    style="@style/textview1"
+                    android:layout_alignParentRight="true"
+                    android:text="" />
+
+            </RelativeLayout>
+
+            <RelativeLayout style="@style/relativelayout.personal">
+
+                <TextView
+                    style="@style/textview"
+                    android:text="手机号" />
+
+                <TextView
+                    android:id="@+id/text_phonenum"
+                    style="@style/textview1"
+                    android:layout_alignParentRight="true"
+                    android:text="" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>  

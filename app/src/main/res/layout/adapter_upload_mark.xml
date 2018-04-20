@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="@dimen/navigation_bar_edit_margin"
+    android:paddingRight="@dimen/navigation_bar_edit_margin"
+    android:orientation="vertical">
+    
+    <ImageView
+        android:id="@+id/img_mark"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ui_380"
+        android:scaleType="fitXY"
+      />
+    <TextView
+        android:id="@+id/text_mark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/navigation_bar_bg"
+        android:padding="@dimen/navigation_bar_edit_margin"
+        android:textColor="@color/gray3"
+        android:textSize="@dimen/font_30"
+        android:text="左脚稍微外翻"/>
+
+</LinearLayout>

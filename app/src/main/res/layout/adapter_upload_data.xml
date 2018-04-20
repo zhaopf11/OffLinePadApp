@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/data_relative">
+
+    <TextView
+        android:id="@+id/text_propertyname"
+        style="@style/textview"
+        android:text="设备号" />
+
+
+    <TextView
+        android:id="@+id/text_propertyvalue"
+        style="@style/textview1"
+        android:layout_marginLeft="@dimen/ui_500"
+        android:layout_marginRight="@dimen/navigation_bar_edit_margin"
+        android:text="" />
+
+</RelativeLayout>

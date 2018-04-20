@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_bg"
+    android:orientation="vertical">
+
+    <include layout="@layout/title_common" />
+
+    <TextView
+        style="@style/title_textview"
+        android:text="个人信息"/>
+
+    <LinearLayout
+        style="@style/relativelayout.personal">
+
+        <TextView
+            style="@style/textview"
+            android:text="姓名" />
+
+        <TextView
+            android:id="@+id/text_username"
+            style="@style/textview1"
+            android:text="王小明" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/relativelayout.personal">
+
+        <TextView
+            style="@style/textview"
+            android:text="身份证号" />
+
+        <TextView
+            android:id="@+id/text_identifycode"
+            style="@style/textview1"
+            android:text="12222222222222222" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/relativelayout.personal">
+
+        <TextView
+            style="@style/textview"
+            android:text="手机号" />
+
+        <TextView
+            android:id="@+id/text_phonenum"
+            style="@style/textview1"
+            android:text="1222222222" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/relativelayout.personal">
+
+        <TextView
+            style="@style/textview"
+            android:text="完成单量" />
+
+        <TextView
+            android:id="@+id/text_hastock"
+            style="@style/textview1"
+            android:text="56单" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/relativelayout"
+        >
+        <TextView
+            style="@style/textview"
+            android:text="工作属性" />
+        <TextView
+            android:id="@+id/text_type"
+            style="@style/textview1"
+            android:text="个人" />
+    </LinearLayout>
+</LinearLayout>  

@@ -1,0 +1,238 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_bg"
+    android:orientation="vertical"
+    tools:context="com.kaihuang.bintutu.home.HomeFragment">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/navigation_bar_edit_margin"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/navigation_bar_edit_margin"
+                android:layout_marginRight="@dimen/navigation_bar_edit_margin"
+                android:background="@drawable/white_corner_bg"
+                android:orientation="vertical"
+                android:padding="@dimen/navigation_bar_edit_margin">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="链接设备"
+                        android:textColor="@color/gray"
+                        android:textSize="@dimen/font_26"
+                        android:layout_marginBottom="@dimen/ui_50"
+                        />
+
+                    <TextView
+                        android:id="@+id/text_changemachine"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="更换"
+                        android:textColor="@color/gray"
+                        android:textSize="@dimen/font_26"
+                        android:layout_alignParentRight="true"
+                        android:paddingBottom="@dimen/navigation_bar_edit_margin"
+                        android:paddingLeft="@dimen/navigation_bar_edit_margin"
+                        android:visibility="gone"/>
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/lin_wificontact"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/ui_120"
+                    android:background="@drawable/gray_corner_bg"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/text_wifi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@drawable/wifi"
+                        android:drawablePadding="@dimen/navigation_bar_edit_margin"
+                        android:text="Wi-Fi链接"
+                        android:textColor="@color/gray3"
+                        android:textSize="@dimen/font_28" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/navigation_bar_edit_margin"
+                android:layout_marginRight="@dimen/navigation_bar_edit_margin"
+                android:layout_marginTop="@dimen/ui_margin_20"
+                android:background="@drawable/white_corner_bg"
+                android:orientation="vertical"
+                android:padding="@dimen/navigation_bar_edit_margin">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/ui_50"
+                        android:text="绑定客户"
+                        android:textColor="@color/gray"
+                        android:textSize="@dimen/font_26" />
+
+                    <TextView
+                        android:id="@+id/text_changecustomer"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="更换"
+                        android:textColor="@color/gray"
+                        android:textSize="@dimen/font_26"
+                        android:layout_alignParentRight="true"
+                        android:paddingBottom="@dimen/navigation_bar_edit_margin"
+                        android:paddingLeft="@dimen/navigation_bar_edit_margin"
+                        android:visibility="gone"/>
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/lin_usercontact"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/ui_120"
+                    android:orientation="vertical"
+                    android:background="@drawable/gray_corner_bg"
+                    android:gravity="center">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:id="@+id/text_chooseuser"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="end"
+                            android:text="绑定客户"
+                            android:textColor="@color/gray3"
+                            android:textSize="@dimen/font_28" />
+
+                        <TextView
+                            android:id="@+id/text_related"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/ui_11"
+                            android:layout_gravity="end"
+                            android:text="关联客户"
+                            android:textColor="@color/gray3"
+                            android:textSize="@dimen/font_28"
+                            android:visibility="gone"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/ui_30"
+                android:layout_marginLeft="@dimen/ui_30"
+                android:layout_marginTop="@dimen/ui_margin_20">
+
+                <TextView
+                    android:id="@+id/text_foot_data"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/ui_88"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="足型数据"
+                    android:textColor="@color/color_f59722"
+                    android:textSize="@dimen/font_26"
+                    android:background="@drawable/white_corner_bg"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/ui_88"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="皮肤数据"
+                    android:textColor="@drawable/radiobutton_textcolorchange"
+                    android:textSize="@dimen/font_26"
+                    android:layout_marginLeft="@dimen/ui_30"
+                    android:background="@drawable/white_corner_bg"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/ui_30"
+                android:layout_marginLeft="@dimen/ui_30"
+                android:layout_marginTop="@dimen/ui_margin_20">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/ui_88"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="体型数据"
+                    android:textColor="@drawable/radiobutton_textcolorchange"
+                    android:textSize="@dimen/font_26"
+                    android:background="@drawable/white_corner_bg"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/ui_88"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="眼睛数据"
+                    android:textColor="@drawable/radiobutton_textcolorchange"
+                    android:textSize="@dimen/font_26"
+                    android:layout_marginLeft="@dimen/ui_30"
+                    android:background="@drawable/white_corner_bg"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/navigation_bar_edit_margin"
+                android:layout_marginRight="@dimen/navigation_bar_edit_margin"
+                android:layout_marginTop="@dimen/ui_margin_20"
+                android:layout_marginBottom="@dimen/ui_30"
+                android:background="@drawable/white_corner_bg"
+                android:orientation="vertical"
+                android:padding="@dimen/navigation_bar_edit_margin">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/ui_50"
+                    android:text="上传原始数据"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/font_26" />
+
+                <LinearLayout
+                    android:id="@+id/lin_updatedate"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/ui_120"
+                    android:background="@drawable/gray_corner_bg"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="上传原始数据"
+                        android:textColor="@color/gray3"
+                        android:textSize="@dimen/font_28" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

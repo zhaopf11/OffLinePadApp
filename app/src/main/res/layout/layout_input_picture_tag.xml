@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/translucence">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/title_font_black">
+
+        <ImageView
+            android:id="@+id/image_cancle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/cancle"
+            android:padding="@dimen/navigation_bar_edit_margin" />
+
+
+        <ImageView
+            android:id="@+id/image_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/sure"
+            android:padding="@dimen/navigation_bar_edit_margin" />
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/input_edit"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@null"
+        android:padding="@dimen/navigation_bar_edit_margin"
+        android:textSize="@dimen/font_36"
+        android:textColor="@color/navigation_bar_bg"/>
+
+</LinearLayout>

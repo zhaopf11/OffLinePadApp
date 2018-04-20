@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/ui_88"
+    android:background="@color/navigation_bar_bg"
+    android:paddingLeft="@dimen/navigation_bar_edit_margin"
+    android:paddingRight="@dimen/navigation_bar_edit_margin"
+    >
+
+    <TextView
+        android:id="@+id/text_machinename"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:textSize="@dimen/font_26"
+        android:textColor="@color/gray3"
+        android:layout_centerVertical="true"
+        android:text="1号设备"/>
+
+    <TextView
+        android:id="@+id/text_contact"
+        android:layout_width="@dimen/ui_150"
+        android:layout_height="@dimen/margin_50"
+        android:background="@drawable/orange_corner_bg"
+        android:textColor="@color/font_orange"
+        android:textSize="@dimen/font_26"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:text="链接"/>
+
+</RelativeLayout>

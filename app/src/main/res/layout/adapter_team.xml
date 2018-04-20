@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/ui_88"
+    android:paddingLeft="@dimen/navigation_bar_edit_margin"
+    android:paddingRight="@dimen/navigation_bar_edit_margin"
+    android:background="@color/navigation_bar_bg">
+    <TextView
+        android:id="@+id/text_teamname"
+        style="@style/textview3"
+        android:layout_centerVertical="true"
+        android:text="王小明" />
+
+    <TextView
+        style="@style/textview4"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:drawablePadding="@dimen/ui_margin_20"
+        android:drawableRight="@drawable/right_into"
+        android:text="查看业绩"
+        android:textSize="@dimen/font_30" />
+</RelativeLayout>

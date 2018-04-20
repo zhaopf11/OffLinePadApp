@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_bg"
+    android:orientation="vertical">
+
+    <include layout="@layout/title_common" />
+
+
+    <RelativeLayout
+        style="@style/relativelayout"
+        android:paddingBottom="@dimen/navigation_bar_edit_margin"
+        android:paddingLeft="@dimen/navigation_bar_edit_margin"
+        android:paddingRight="@dimen/navigation_bar_edit_margin"
+        android:paddingTop="@dimen/ui_40">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="设备报修"
+            android:textColor="@color/gray3"
+            android:textSize="@dimen/font_60" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        style="@style/relativelayout.personal">
+
+        <TextView
+            style="@style/textview"
+            android:text="设备类型" />
+
+        <RadioGroup
+            android:id="@+id/radiogroup_equipment"
+            style="@style/textview1"
+            android:layout_alignParentRight="true"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radiobtn_scanequipment"
+                style="@style/radiobtn.equipment"
+                android:checked="true"
+                android:text="扫描设备" />
+
+            <RadioButton
+                android:id="@+id/radiobtn_holdequipment"
+                style="@style/radiobtn.equipment"
+                android:layout_marginLeft="@dimen/ui_30"
+                android:text="手持设备" />
+        </RadioGroup>
+    </RelativeLayout>
+
+    <RelativeLayout
+        style="@style/relativelayout.personal"
+        android:paddingBottom="0dp"
+        android:paddingTop="0dp">
+
+        <TextView
+            android:id="@+id/text_shebei"
+            style="@style/textview"
+            android:layout_centerVertical="true"
+            android:text="设备Id" />
+
+        <EditText
+            android:id="@+id/edit_equipmentnum"
+            style="@style/edittext"
+            android:layout_toRightOf="@+id/text_shebei"
+            android:layout_marginRight="@dimen/ui_30"
+            android:gravity="center_vertical|end"
+            android:background="@null"
+            android:text=""
+            android:textColor="@color/gray"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        style="@style/relativelayout.personal">
+
+        <TextView
+            style="@style/textview"
+            android:text="报修问题" />
+
+        <RadioGroup
+            android:id="@+id/radiogroup_question"
+            style="@style/textview1"
+            android:layout_alignParentRight="true"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radiobtn_unusual"
+                style="@style/radiobtn.equipment"
+                android:checked="true"
+                android:text="异常" />
+
+            <RadioButton
+                android:id="@+id/radiobtn_damage"
+                style="@style/radiobtn.equipment"
+                android:layout_marginLeft="@dimen/ui_30"
+                android:text="损坏" />
+        </RadioGroup>
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/edit_problem"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ui_290"
+        android:background="@color/navigation_bar_bg"
+        android:textColor="@color/gray"
+        android:hint="问题补充"
+        android:paddingTop="@dimen/navigation_bar_edit_margin"
+        android:paddingLeft="@dimen/navigation_bar_edit_margin"
+        android:paddingRight="@dimen/navigation_bar_edit_margin"
+        android:inputType="textImeMultiLine"
+        android:gravity="left|top"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom">
+
+        <Button
+            android:id="@+id/btn_next"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/ui_88"
+            android:background="@drawable/modify_button_bg"
+            android:enabled="true"
+            android:text="报修问题"
+            android:textColor="@drawable/button_textcolorchange"
+            android:textSize="@dimen/font_30" />
+
+    </LinearLayout>
+
+</LinearLayout>

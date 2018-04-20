@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_bg"
+    android:orientation="vertical">
+
+    <include layout="@layout/title_common" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/navigation_bar_bg"
+        android:paddingBottom="@dimen/margin_50"
+        android:paddingLeft="@dimen/navigation_bar_edit_margin"
+        android:paddingRight="@dimen/navigation_bar_edit_margin"
+        android:paddingTop="@dimen/ui_40">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="绑定客户"
+            android:textColor="@color/gray3"
+            android:textSize="@dimen/font_60" />
+
+        <TextView
+            android:id="@+id/text_contactphone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:drawableRight="@drawable/down_normal"
+            android:drawablePadding="@dimen/ui_5"
+            android:text="关联客户号"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/font_30" />
+
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/edit_userphone"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ui_88"
+        android:layout_marginBottom="2px"
+        android:background="@color/navigation_bar_bg"
+        android:hint="请输入手机号"
+        android:inputType="number"
+        android:paddingLeft="@dimen/navigation_bar_edit_margin"
+        android:paddingRight="@dimen/navigation_bar_edit_margin"
+        android:text=""
+        android:textColor="@color/gray3"
+        android:textSize="@dimen/font_30" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ui_88"
+        android:background="@color/navigation_bar_bg"
+        android:paddingLeft="@dimen/navigation_bar_edit_margin"
+        android:paddingRight="@dimen/navigation_bar_edit_margin">
+
+
+        <EditText
+            android:id="@+id/edit_code"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toLeftOf="@+id/text_getcode"
+            android:background="#00000000"
+            android:hint="请输入验证码"
+            android:inputType="number"
+            android:lines="1"
+            android:textColor="@color/gray3"
+            android:textSize="@dimen/font_30" />
+
+
+        <TextView
+            android:id="@+id/text_getcode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:padding="@dimen/ui_5"
+            android:background="@drawable/orange_corner_bg"
+            android:gravity="center"
+            android:text="获取验证码"
+            android:textColor="@color/font_orange"
+            android:textSize="@dimen/font_26" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/lin_contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/ui_margin_20"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <EditText
+            android:id="@+id/edit_contactphone"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/ui_88"
+            android:layout_marginBottom="2px"
+            android:background="@color/navigation_bar_bg"
+            android:hint="请输入需要关联的手机号码"
+            android:inputType="number"
+            android:paddingLeft="@dimen/navigation_bar_edit_margin"
+            android:paddingRight="@dimen/navigation_bar_edit_margin"
+            android:text=""
+            android:textColor="@color/gray3"
+            android:textSize="@dimen/font_30" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/ui_88"
+            android:background="@color/navigation_bar_bg"
+            android:paddingLeft="@dimen/navigation_bar_edit_margin"
+            android:paddingRight="@dimen/navigation_bar_edit_margin">
+
+
+            <EditText
+                android:id="@+id/edit_contactcode"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_toLeftOf="@+id/text_getcode1"
+                android:background="#00000000"
+                android:hint="请输入验证码"
+                android:inputType="number"
+                android:lines="1"
+                android:textColor="@color/gray3"
+                android:textSize="@dimen/font_30"
+                android:text=""/>
+
+
+            <TextView
+                android:id="@+id/text_getcode1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:padding="@dimen/ui_5"
+                android:background="@drawable/orange_corner_bg"
+                android:gravity="center"
+                android:text="获取验证码"
+                android:textColor="@color/font_orange"
+                android:textSize="@dimen/font_26" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom">
+
+
+        <include layout="@layout/layout_common_btn" />
+    </LinearLayout>
+
+
+</LinearLayout>  
